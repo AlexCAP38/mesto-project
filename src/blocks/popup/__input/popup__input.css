@@ -6,7 +6,6 @@
   border-radius: 0;
   border: 0;
   border-bottom: 1px solid rgba(000, 000, 000, .2);
-
   margin: 42px auto 0;
 }
 
@@ -26,7 +25,7 @@
     margin: 70px auto 0;
   }
 }
-/* 
+/*
 .popup__input:invalid {
   border-color: #FF0000;
 } */

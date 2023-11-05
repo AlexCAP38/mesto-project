@@ -19,7 +19,7 @@
 
       <section class="profile">
         <div class="profile__container-avatar">
-          <img class="profile__avatar" src="<%=require('./images/avatar.jpg')%>" alt="Аватарка">
+          <img id="" class="profile__avatar" src="<%=require('./images/avatar.jpg')%>" alt="Аватарка">
           <button type="button" class="profile__edit-avatar" aria-label="обновить аватар"></button>
         </div>
         <div class="profile__container-out">
@@ -77,7 +77,7 @@
       </form>
     </div>
   </div>
-
+  <!-- popup__button_active -->
   <!-- модальное окно для обновления аватарки -->
   <div class="popup" id="popup-edit-avatar">
     <button type="button" class="popup__close" aria-label="Закрыть форму редактирования профиля."></button>
@@ -96,6 +96,7 @@
 
   <!-- модальное окно для подтверждения удаления -->
   <div class="popup" id="popup-confirm-delete-card">
+    <button type="button" class="popup__close" aria-label="Закрыть форму"></button>
     <div class="popup__container popup__container_input">
       <form class="popup__form" action="#" id="popup__form-confirm-delete-card" name="popup__form" method="post"
         novalidate>
